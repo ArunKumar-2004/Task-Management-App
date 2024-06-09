@@ -25,41 +25,45 @@ This is a simple task management application built using React and Material-UI.
 5. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## Project Structure
-   task-management-app
-    -client
-        -node_modules
-        -public
-        -src
-            -api
-                -taskApi.js
-            -Components
-                -TaskList.js
-                -TaskForm.js
-                -TaskEdit.js
-            index.js
-            App.js
-            App.css
-            index.css
-        .env
-        .gitignore
-        package-lock.json
-        package.json
-    -server
-        -config
-            -db.js
-        -controllers
-            -Controller.js
-        -models
-            -Task.js
-        -node_modules
-        -routes
-            -taskRoutes.js
-        server.js
-        .env
-        .gitignore
-        package-lock.json
-        package.json
-    -readme.md
+task-management-app/
+│
+├── client/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── api/
+│   │   │   └── taskApi.js
+│   │   ├── Components/
+│   │   │   ├── TaskList.js
+│   │   │   ├── TaskForm.js
+│   │   │   └── TaskEdit.js
+│   │   ├── index.js
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── .env
+│   ├── .gitignore
+│   ├── package-lock.json
+│   └── package.json
+│
+├── server/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── Controller.js
+│   ├── models/
+│   │   └── Task.js
+│   ├── node_modules/
+│   ├── routes/
+│   │   └── taskRoutes.js
+│   ├── server.js
+│   ├── .env
+│   ├── .gitignore
+│   ├── package-lock.json
+│   └── package.json
+│
+└── readme.md
+
 
 ## Dependencies
 
