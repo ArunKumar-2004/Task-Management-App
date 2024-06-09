@@ -42,26 +42,29 @@ task-management-app/
 │   │   ├── App.js
 │   │   ├── App.css
 │   │   ├── index.css
-│   │   └── .env
+│   ├── .env
 │   ├── .gitignore
 │   ├── package-lock.json
 │   └── package.json
 │
-└── server/
-    ├── config/
-    │   └── db.js
-    ├── controllers/
-    │   └── Controller.js
-    ├── models/
-    │   └── Task.js
-    ├── node_modules/
-    ├── routes/
-    │   └── taskRoutes.js
-    ├── server.js
-    ├── .env
-    ├── .gitignore
-    ├── package-lock.json
-    └── package.json
+├── server/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── Controller.js
+│   ├── models/
+│   │   └── Task.js
+│   ├── node_modules/
+│   ├── routes/
+│   │   └── taskRoutes.js
+│   ├── server.js
+│   ├── .env
+│   ├── .gitignore
+│   ├── package-lock.json
+│   └── package.json
+│
+└── readme.md
+
 ```
 
 
