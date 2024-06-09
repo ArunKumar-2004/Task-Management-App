@@ -25,6 +25,7 @@ This is a simple task management application built using React and Material-UI.
 5. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## Project Structure
+```bash
 task-management-app/
 │
 ├── client/
@@ -61,6 +62,7 @@ task-management-app/
     ├── .gitignore
     ├── package-lock.json
     └── package.json
+```
 
 
 
